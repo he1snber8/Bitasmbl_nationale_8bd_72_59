@@ -20,7 +20,7 @@ export function filterNotes(notes: Note[], filters: NoteFilters): Note[] {
   const query = search?.trim().toLowerCase();
 
   return notes
-    .filter((note) => note.isArchived === archived)
+    .filter((notela) => notela.isArchived === archived)
     .filter(
       (note) =>
         !query ||
