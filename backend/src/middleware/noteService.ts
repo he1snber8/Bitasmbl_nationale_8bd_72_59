@@ -26,6 +26,7 @@ export function filterNotes(notes: Note[], filters: NoteFilters): Note[] {
         !query ||
         note.title.toLowerCase().includes(query) ||
         note.content.toLowerCase().includes(query),
+
     )
     .filter(
       (note) =>
