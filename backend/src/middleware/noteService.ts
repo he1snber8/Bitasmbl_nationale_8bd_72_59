@@ -7,7 +7,6 @@ export interface Note {
   isPinned: boolean;
   createdAt: Date;
   updatedAt: Date;
-  updatedAt2: Date;
 }
 
 interface NoteFilters {
