@@ -23,11 +23,363 @@
       }
     },
     {
+      "file": "backend/src/middleware/validateNoteCreation.ts",
+      "requirementId": 918,
+      "lastModified": "2026-10-30T09:13:45.323Z",
+      "activity": {
+        "idleBreaks": 6,
+        "intervalSamples": [
+          {
+            "interval": 0,
+            "diffStats": {
+              "linesAdded": 29,
+              "linesDeleted": 0
+            }
+          },
+          {
+            "diffStats": {
+              "linesAdded": 29,
+              "linesDeleted": 0
+            },
+            "interval": 51
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 54349
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 3
+            },
+            "interval": 350
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 1
+            },
+            "interval": 8
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 136
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 29
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 2
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 111
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 2
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 291
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 21
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 701
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 16
+          },
+          {
+            "diffStats": {
+              "linesAdded": 14,
+              "linesDeleted": 0
+            },
+            "interval": 34
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 494
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 76
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 46
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 1
+            },
+            "interval": 519
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 40
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 23
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 3
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 10
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 9
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 693
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 0
+            },
+            "interval": 6
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 3
+            },
+            "interval": 51
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 1
+            },
+            "interval": 9
+          }
+        ],
+        "medianEditIntervalSec": 37
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": true
+      }
+    },
+    {
+      "file": "backend/src/middleware/validateNoteFilters.ts",
+      "requirementId": 918,
+      "lastModified": "2026-10-30T09:27:19.944Z",
+      "activity": {
+        "idleBreaks": 3,
+        "intervalSamples": [
+          {
+            "interval": 0,
+            "diffStats": {
+              "linesAdded": 34,
+              "linesDeleted": 0
+            }
+          },
+          {
+            "diffStats": {
+              "linesAdded": 34,
+              "linesDeleted": 0
+            },
+            "interval": 82
+          },
+          {
+            "diffStats": {
+              "linesAdded": 3,
+              "linesDeleted": 2
+            },
+            "interval": 54353
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 28
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 49
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 4
+            },
+            "interval": 2088
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 2
+            },
+            "interval": 17
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 4
+            },
+            "interval": 6
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 2
+            },
+            "interval": 10
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 74
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 3
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 2
+            },
+            "interval": 36
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 7
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 55
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 4
+            },
+            "interval": 36
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 2034
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 0
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 52
+          }
+        ],
+        "medianEditIntervalSec": 36
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": true
+      }
+    },
+    {
       "file": "backend/src/middleware/noteService.ts",
       "requirementId": 918,
-      "lastModified": "2026-10-30T08:09:02.083Z",
+      "lastModified": "2026-10-30T09:27:21.620Z",
       "activity": {
-        "idleBreaks": 8,
+        "idleBreaks": 10,
         "intervalSamples": [
           {
             "interval": 0,
@@ -357,165 +709,23 @@
               "linesDeleted": 29
             },
             "interval": 381
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 0
+            },
+            "interval": 3009
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 1690
           }
         ],
-        "medianEditIntervalSec": 45
-      },
-      "sourceHints": {
-        "possiblePaste": false,
-        "suspiciousJump": true
-      }
-    },
-    {
-      "file": "backend/src/middleware/validateNoteFilters.ts",
-      "requirementId": 918,
-      "lastModified": "2026-10-30T08:13:35.420Z",
-      "activity": {
-        "idleBreaks": 1,
-        "intervalSamples": [
-          {
-            "interval": 0,
-            "diffStats": {
-              "linesAdded": 34,
-              "linesDeleted": 0
-            }
-          },
-          {
-            "diffStats": {
-              "linesAdded": 34,
-              "linesDeleted": 0
-            },
-            "interval": 82
-          },
-          {
-            "diffStats": {
-              "linesAdded": 3,
-              "linesDeleted": 2
-            },
-            "interval": 54353
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 28
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 49
-          }
-        ],
-        "medianEditIntervalSec": 49
-      },
-      "sourceHints": {
-        "possiblePaste": false,
-        "suspiciousJump": true
-      }
-    },
-    {
-      "file": "backend/src/middleware/validateNoteCreation.ts",
-      "requirementId": 918,
-      "lastModified": "2026-10-30T08:39:48.420Z",
-      "activity": {
-        "idleBreaks": 3,
-        "intervalSamples": [
-          {
-            "interval": 0,
-            "diffStats": {
-              "linesAdded": 29,
-              "linesDeleted": 0
-            }
-          },
-          {
-            "diffStats": {
-              "linesAdded": 29,
-              "linesDeleted": 0
-            },
-            "interval": 51
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 54349
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 3
-            },
-            "interval": 350
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 1
-            },
-            "interval": 8
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 136
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 2
-            },
-            "interval": 29
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 2
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 2
-            },
-            "interval": 111
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 2
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 2
-            },
-            "interval": 291
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 21
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 2
-            },
-            "interval": 701
-          }
-        ],
-        "medianEditIntervalSec": 51
+        "medianEditIntervalSec": 50
       },
       "sourceHints": {
         "possiblePaste": false,
