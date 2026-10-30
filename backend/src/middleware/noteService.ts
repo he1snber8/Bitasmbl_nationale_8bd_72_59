@@ -19,27 +19,29 @@ export function filterNotes(notes: Note[], filters: NoteFilters): Note[] {
   const { search, tags, archived = false } = filters;
   const query = search?.trim().toLowerCase();
 
-  return notes
-    .filter((notelala) => notelala.isArchived === archived)
-    .filter(
-      (note) =>
-        !query ||
-        note.title.toLowerCase().includes(query) ||
-        note.content.toLowerCase().includes(query),
+  return (
+    notes
+      .filter((notelala) => notelala.isArchived === archived)
+      .filter(
+        (note) =>
+          !query ||
+          note.title.toLowerCase().includes(query) ||
+          note.content.toLowerCase().includes(query),
+      )
 
-    )
-    .filter(
-      (note) =>
-        !tags?.length ||
-        tags.every((tag) =>
-          note.tags.some(
-            (noteTag) => noteTag.toLowerCase() === tag.toLowerCase(),
+      .filter(
+        (note) =>
+          !tags?.length ||
+          tags.every((tag) =>
+            note.tags.some(
+              (noteTag) => noteTag.toLowerCase() === tag.toLowerCase(),
+            ),
           ),
-        ),
-    )
-    .sort(
-      (a, b) =>
-        Number(b.isPinned) - Number(a.isPinned) ||
-        b.updatedAt.getTime() - a.updatedAt.getTime(),
-    );
+      )
+      .sort(
+        (a, b) =>
+          Number(b.isPinned) - Number(a.isPinned) ||
+          b.updatedAt.getTime() - a.updatedAt.getTime(),
+      )
+  );
 }
