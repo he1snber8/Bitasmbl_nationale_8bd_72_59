@@ -34,7 +34,7 @@ export function filterNotes(notes: Note[], filters: NoteFilters): Note[] {
           tags.every((tag) =>
             note.tags.some(
               (noteTag) => noteTag.toLowerCase() === tag.toLowerCase(),
-              ///
+
             ),
           ),
       )
