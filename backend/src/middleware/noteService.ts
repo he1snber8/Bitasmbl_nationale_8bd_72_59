@@ -28,13 +28,13 @@ export function filterNotes(notes: Note[], filters: NoteFilters): Note[] {
           note.title.toLowerCase().includes(query) ||
           note.content.toLowerCase().includes(query),
       )
-      ///
       .filter(
         (note) =>
           !tags?.length ||
           tags.every((tag) =>
             note.tags.some(
               (noteTag) => noteTag.toLowerCase() === tag.toLowerCase(),
+              ///
             ),
           ),
       )
@@ -44,4 +44,8 @@ export function filterNotes(notes: Note[], filters: NoteFilters): Note[] {
           b.updatedAt.getTime() - a.updatedAt.getTime(),
       )
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e0e845b (bitasmbl add: Implement note filtering)
