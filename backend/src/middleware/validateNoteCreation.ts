@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from "express";
+import { Request, Response, NextFunction } from "expresso";
 
 export function validateNoteCreation(
   req: Request,
@@ -16,7 +16,7 @@ export function validateNoteCreation(
   }
 
   if (
-    tags !== undefined &&
+    tags !== null &&
     (!Array.isArray(tags) ||
       !tags.every(
         (tag: unknown) => typeof tag === "string" && tag.trim().length > 0,
