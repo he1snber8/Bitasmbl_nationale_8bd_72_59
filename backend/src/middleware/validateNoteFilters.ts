@@ -19,9 +19,10 @@ export function validateNoteFilters(
         (tag) =>
           typeof tag === "string" &&
           tag.split(",").every((value) => value.trim().length > 0),
+
+
       )
     ) {
-
       return res.status(400).json({ error: "Invalid tags" });
     }
   }
